@@ -1,0 +1,17 @@
+.imgContainer{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.images{
+    border: 1px solid red;
+    border-radius:100%;
+    margin:10px;
+  }
+
+  .title{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}

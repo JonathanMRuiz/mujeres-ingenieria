@@ -1,0 +1,48 @@
+body {
+	
+	
+font-family: 'Forum', cursive;
+	
+	color: #fff;
+	background: linear-gradient(-45deg, #4c2882, #703cbd, #9150f3, #9e5dff);
+	background-size: 400% 400%;
+	animation: gradientBG 5s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container {
+	
+	
+}
+
+h1 {
+	font-weight: 300;
+}
+
+h3 {
+	color: #eee;
+	font-weight: 100;
+}
+
+h5 {
+	color:#eee;
+	font-weight:300;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+	color: #ddd;
+}
+
