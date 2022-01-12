@@ -1,15 +1,15 @@
 body {
 	
 	
-font-family: 'Forum', cursive;
+font-family: cursive;
 	
 	color: #fff;
-	background: linear-gradient(-45deg, #4c2882, #703cbd, #9150f3, #9e5dff);
+	background: linear-gradient(-50deg, #4c2882, #4c2882, #7737d6, #7d2ff1);
 	background-size: 400% 400%;
 	animation: gradientBG 5s ease infinite;
 }
 
-@keyframes gradientBG {
+@keyframes gradientBG {	
 	0% {
 		background-position: 0% 50%;
 	}

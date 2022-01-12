@@ -3,7 +3,7 @@ import style from '../Assets/scss/Activities.module.scss'
 
 const Activities = () => {
     return (
-        <Container className={style.container} id="section-activities">
+        <Container className={style.container} id="activities">
             <Row>
                 <div className="col-12 col-md-12 col-sm-12">
                 <h3 className={style.title}>Actividades</h3>

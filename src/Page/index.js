@@ -1,4 +1,4 @@
-import Navbar from '../Components/Navbar';
+import IndexNavbar from '../Components/IndexNavbar';
 import Mision from '../Components/Mision';
 import Activities from '../Components/Activities';
 import Home from '../Components/Home';
@@ -11,12 +11,13 @@ import Footer from '../Components/Footer';
 const Index = () => {
     return (
         <div>
-            <Navbar/>
+            <IndexNavbar/>
         <div className="container">
             <Home/>
             <Mision/>
             <Activities/>
             <UsPage/>
+            <History/>
             <Footer/>
             
         </div>

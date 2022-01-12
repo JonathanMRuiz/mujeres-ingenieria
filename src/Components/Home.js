@@ -2,7 +2,7 @@ import {Container, Row} from 'reactstrap'
 import style from '../Assets/scss/Home.module.scss'
 const Home = () => {
     return (
-        <Container>
+        <Container id="home">
         <div className={style.container}>
             <Row>
                 <div className="col-12 col-md-12 col-sm-12">
